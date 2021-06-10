@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidMvvm-master.iml" filepath="$PROJECT_DIR$/.idea/modules/androidMvvm-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/androidMvvm-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/androidMvvm-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libsvg/androidMvvm-master.libsvg.iml" filepath="$PROJECT_DIR$/.idea/modules/libsvg/androidMvvm-master.libsvg.iml" />
     </modules>
   </component>
 </project>

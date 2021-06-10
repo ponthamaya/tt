@@ -1,12 +1,20 @@
 package com.example.kamal.myapplication.viewModel;
 
+import android.content.Context;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
+import android.util.Log;
+
 import com.example.kamal.myapplication.model.MovieModel;
 import com.example.kamal.myapplication.repository.MovieRepository;
-
+import com.scand.svg.SVGHelper;
 
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import java.io.IOException;
+import java.net.URL;
 
 /**
  * Created by kamal on 8/2/18.
@@ -32,5 +40,17 @@ public class MovieListViewModel extends ViewModel {
 
     public MutableLiveData<MovieModel> getMovies() {
         return this.data;
+    }
+
+    public Drawable getSvg(Context context) {
+        try {
+            Log.w("msg", "img== ");
+            BitmapDrawable img = SVGHelper.noContext().open(new URL("https://upload.wikimedia.org/wikipedia/commons/7/73/Flat_tick_icon.svg")).getBitmapDrawable(context);
+            Log.w("msg", "img1== " + img);
+            return img;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }
