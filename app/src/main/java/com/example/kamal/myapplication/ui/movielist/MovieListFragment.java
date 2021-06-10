@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by kamal on 8/2/18.
+ * Created by Arti on 8/6/21.
  */
 
 public class MovieListFragment extends Fragment {

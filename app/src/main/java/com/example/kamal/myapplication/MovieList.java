@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.example.kamal.myapplication.ui.movielist.MovieListFragment;
 /**
- * Created by kamal on 8/2/18.
+ * Created by Arti on 8/6/21.
  */
 public class MovieList extends AppCompatActivity {
 

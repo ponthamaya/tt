@@ -13,7 +13,7 @@ import java.util.List;
 import androidx.recyclerview.widget.RecyclerView;
 
 /**
- * Created by kamal on 8/2/18.
+ * Created by Arti on 8/6/21.
  */
 
 public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MyViewHolder> {
